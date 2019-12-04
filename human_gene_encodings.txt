@@ -3,6 +3,6 @@ WHERE
 {
 	?gene wdt:P31 wd:Q7187 . #Find every thing where property INSTANCE has value GENE...      
 	?gene wdt:P703 wd:Q15978631 . #...and property FOUND IN TAXON has value HOMO SAPIENS,
-    OPTIONAL{?gene wdt:P688 ?encodes.} #and display value of property ENCODES
+	OPTIONAL{?gene wdt:P688 ?encodes.} #and display value of property ENCODES
 	SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }
 }
